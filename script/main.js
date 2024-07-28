@@ -212,10 +212,10 @@ const animationTimeline = () => {
       ".sakshi-dp",
       0.5,
       {
-        scale: 0.8,
+        scale: 1,
         opacity: 0,
-        x: "-50%",
-        y: "-50%",
+        x: 0,
+        y: 0,
         rotationZ: 0
       },
       "-=2"
