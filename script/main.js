@@ -1,17 +1,4 @@
 // Import the data to customize and insert them into page
-document.addEventListener('DOMContentLoaded', function() {
-  var img1 = document.querySelector('.sakshi-dp');
-  var img2 = document.querySelector('.sakshi-dp1');
-
-  // Show the first image initially
-  img1.classList.add('show');
-
-  // After 3 seconds, transition to the second image
-  setTimeout(function() {
-    img1.classList.remove('show');
-    img2.classList.add('show');
-  }, 3000);
-});
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
