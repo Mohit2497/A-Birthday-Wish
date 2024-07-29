@@ -244,6 +244,54 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .from(
+      ".sakshi-dp3",
+      0.5,
+      {
+        scale: 1,
+        opacity: 0,
+        x: 0,
+        y: 0,
+        rotationZ: 0
+      },
+      "-=2"
+    )
+    .from(
+      ".sakshi-dp4",
+      0.5,
+      {
+        scale: 1,
+        opacity: 0,
+        x: 0,
+        y: 0,
+        rotationZ: 0
+      },
+      "-=2"
+    )
+    .from(
+      ".sakshi-dp5",
+      0.5,
+      {
+        scale: 1,
+        opacity: 0,
+        x: 0,
+        y: 0,
+        rotationZ: 0
+      },
+      "-=2"
+    )
+    .from(
+      ".sakshi-dp6",
+      0.5,
+      {
+        scale: 1,
+        opacity: 0,
+        x: 0,
+        y: 0,
+        rotationZ: 0
+      },
+      "-=2"
+    )
     // .from(".hat", 0.5, {
     //   x: -100,
     //   y: 350,
