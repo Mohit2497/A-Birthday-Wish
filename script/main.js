@@ -220,6 +220,18 @@ const animationTimeline = () => {
       },
       "-=2"
     )
+    .from(
+      ".sakshi-dp1",
+      0.5,
+      {
+        scale: 1,
+        opacity: 0,
+        x: 0,
+        y: 0,
+        rotationZ: 0
+      },
+      "-=2"
+    )
     // .from(".hat", 0.5, {
     //   x: -100,
     //   y: 350,
