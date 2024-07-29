@@ -56,6 +56,16 @@ body {
   position: absolute;
 }
 
+.sakshi-dp, .sakshi-dp1 {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.sakshi-dp.show, .sakshi-dp1.show {
+  opacity: 1;
+}
+
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
